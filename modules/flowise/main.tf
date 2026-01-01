@@ -1,4 +1,5 @@
 
+
 resource "helm_release" "flowise" {
   name             = "flowise"
   repository       = "https://cowboysysop.github.io/charts/"
