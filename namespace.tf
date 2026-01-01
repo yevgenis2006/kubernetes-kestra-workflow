@@ -1,7 +1,7 @@
 
-resource "kubernetes_namespace" "crossplane" {
+resource "kubernetes_namespace" "kestra" {
 metadata {
-name = "crossplane"
+name = "kestra"
 labels = {
 "app.kubernetes.io/managed-by" = "terraform"
   }
