@@ -2,7 +2,7 @@
 
 
 ## Kestra | AWS - GCP - Azure
-Crossplane is an open-source cloud infrastructure control plane that lets you provision and manage cloud resources using Kubernetes APIs.
+Kestra is an open-source workflow orchestration and automation platform designed to build, run, monitor, and debug complex workflows—especially ones that mix data pipelines, cloud automation, and modern tasks like LLMs.
 
 
 🧱  Key Features and Purpose
