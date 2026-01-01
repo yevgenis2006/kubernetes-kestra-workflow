@@ -1,7 +1,7 @@
-<img width="967" height="469" alt="image" src="https://github.com/user-attachments/assets/36d90759-966b-44a6-b28e-2ff8699a4bac" />
+<img width="1201" height="675" alt="image" src="https://github.com/user-attachments/assets/0d553c99-453e-402e-9f4f-c6fe41f9b17d" />
 
 
-## Crossplane | AWS - GCP - Azure
+## Kestra | AWS - GCP - Azure
 Crossplane is an open-source cloud infrastructure control plane that lets you provision and manage cloud resources using Kubernetes APIs.
 
 
