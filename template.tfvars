@@ -1,5 +1,22 @@
 
-# AnythingLLM
-anythingllm_host = "llm.appflex.io"
-anythingllm_service_name = "anything-llm"
-anythingllm_service_port = 3001
+kestra = {
+  mode = "distributed"
+
+  deployments = {
+    standalone = false
+
+    webserver = true
+    executor  = true
+    scheduler = true
+    worker    = true
+    indexer   = true
+  }
+
+  replicas = {
+    webserver = 2
+    executor  = 2
+    scheduler = 1
+    worker    = 3
+    indexer   = 1
+  }
+}
