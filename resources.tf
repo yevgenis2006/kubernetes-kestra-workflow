@@ -5,19 +5,9 @@ module "minio" {
    depends_on = [kubernetes_namespace.anythingllm]
 }
 
-module "ollama" {
-  source = "./modules/ollama"
+module "kestra" {
+  source = "./modules/kestra"
   depends_on = [module.minio]
-}
-
-module "weaviate" {
-  source = "./modules/weaviate"
-  depends_on = [module.minio]
-}
-
-module "anythingllm" {
-  source = "./modules/anythingllm"
-  depends_on = [module.weaviate]
 }
 
 module "flowise" {
