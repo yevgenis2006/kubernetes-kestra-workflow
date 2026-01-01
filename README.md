@@ -5,16 +5,16 @@
 Kestra is an open-source workflow orchestration and automation platform designed to build, run, monitor, and debug complex workflows—especially ones that mix data pipelines, cloud automation, and modern tasks like LLMs.
 
 
-🧱  Key Features and Purpose
+🧱  Main components
 ```
-✔ Multi-cloud provisioning
-✔ Platform engineering / Internal Developer Platforms
-✔ Abstractions over infrastructure
-✔ GitOps-driven infra
-✔ Drift detection
-✔ Long-lived infrastructure
+✅ Webserver – UI & API
+✅ Scheduler – decides when workflows run
+✅ Executor – coordinates task execution
+✅ Workers – execute tasks
+✅ Indexer – indexes logs/metadata (Elasticsearch / OpenSearch)
+✅ PostgreSQL – state & metadata
+✅ Kafka / internal queue – task/event flow
 ```
-
 
 
 🚀 Deployment Options
